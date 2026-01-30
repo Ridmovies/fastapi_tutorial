@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ slug }}</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            margin-top: 32px;
+        }
+
+        pre {
+            background: #f6f8fa;
+            padding: 16px;
+            overflow-x: auto;
+            border-radius: 6px;
+        }
+
+        code {
+            background: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        a {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+<a href="/">← Назад к списку тем</a>
+
+<hr>
+
+<div class="theory-content">
+    {{ content | safe }}
+</div>
+
+</body>
+</html>

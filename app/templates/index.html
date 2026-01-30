@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>FastAPI Theory</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+        }
+        .topic {
+            padding: 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        .topic a {
+            text-decoration: none;
+            color: #000;
+        }
+        .topic-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .topic-desc {
+            color: #555;
+            margin-top: 6px;
+        }
+        .level {
+            font-size: 12px;
+            color: #888;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>📚 Темы для изучения</h1>
+
+{% for topic in topics %}
+    <div class="topic">
+        <a href="/web/theory/{{ topic.slug }}">
+            <div class="topic-title">
+                {{ topic.title }}
+            </div>
+            <div class="topic-desc">
+                {{ topic.description }}
+            </div>
+
+            {% if topic.level %}
+                <div class="level">
+                    Level: {{ topic.level }}
+                </div>
+            {% endif %}
+        </a>
+    </div>
+{% endfor %}
+
+</body>
+</html>

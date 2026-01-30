@@ -1,0 +1,7 @@
+[
+{
+  "slug": "pydantic-schemas",
+  "title": "Pydantic Schemas",
+  "description": "Валидация данных и схемы запросов/ответов в FastAPI"
+}
+]
