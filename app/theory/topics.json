@@ -3,5 +3,22 @@
   "slug": "pydantic-schemas",
   "title": "Pydantic Schemas",
   "description": "Валидация данных и схемы запросов/ответов в FastAPI"
+},
+{
+  "slug": "sqlalchemy-mapped-vs-classic",
+  "title": "SQLAlchemy: Mapped vs Classic",
+  "description": "Разница между классическим стилем Column и новым Mapped стилем в SQLAlchemy 2.0"
+},
+  {
+  "slug": "sqlalchemy-mapped-fields",
+  "title": "SQLAlchemy: Mapped Fields",
+  "description": "Подробная карточка по Mapped моделям в SQLAlchemy 2.0: типы колонок, параметры, связи и опции"
+},
+  {
+  "slug": "fastapi-async-postgres-modern",
+  "title": "FastAPI: Async PostgreSQL (Modern)",
+  "description": "Современное подключение асинхронной PostgreSQL к FastAPI через SQLAlchemy 2.0 и async_sessionmaker с пояснениями"
 }
+
+
 ]
