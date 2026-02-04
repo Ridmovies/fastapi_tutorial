@@ -18,7 +18,18 @@
   "slug": "fastapi-async-postgres-modern",
   "title": "FastAPI: Async PostgreSQL (Modern)",
   "description": "Современное подключение асинхронной PostgreSQL к FastAPI через SQLAlchemy 2.0 и async_sessionmaker с пояснениями"
+},
+  {
+  "slug": "sqlalchemy-2-vs-legacy",
+  "title": "SQLAlchemy 2.0+ vs Legacy",
+  "description": "Ключевые отличия SQLAlchemy 2.0+ от старых версий: DeclarativeBase, Mapped, select(), async_sessionmaker и что считается deprecated"
+},
+  {
+  "slug": "fastapi-lifespan",
+  "title": "FastAPI: Lifespan и @asynccontextmanager",
+  "description": "Асинхронный жизненный цикл приложения FastAPI. Startup/shutdown, обновление базы без Alembic, сиды, ресурсы."
 }
+
 
 
 ]
