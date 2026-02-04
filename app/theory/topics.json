@@ -38,6 +38,11 @@
   "slug": "sqlalchemy-created-at-aware",
   "title": "SQLAlchemy: created_at и aware datetime",
   "description": "Объяснение разницы default=lambda, server_default и почему важно использовать aware datetime в SQLAlchemy 2.0+"
+},
+  {
+  "slug": "sqlalchemy-relationships",
+  "title": "SQLAlchemy: Связи между таблицами",
+  "description": "Примеры One-to-Many, One-to-One и Many-to-Many в современном стиле SQLAlchemy 2.0+"
 }
 
 
