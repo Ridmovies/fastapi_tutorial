@@ -43,6 +43,11 @@
   "slug": "sqlalchemy-relationships",
   "title": "SQLAlchemy: Связи между таблицами",
   "description": "Примеры One-to-Many, One-to-One и Many-to-Many в современном стиле SQLAlchemy 2.0+"
+},
+{
+  "slug": "alembic-async-sqlalchemy",
+  "title": "Alembic для асинхронных БД (SQLAlchemy 2.0+)",
+  "description": "Быстрый способ подключить Alembic для async engine (PostgreSQL + asyncpg) с современным SQLAlchemy 2.0+"
 }
 
 
