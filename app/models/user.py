@@ -16,6 +16,8 @@ class User(Base):
         default=lambda: datetime.now(timezone.utc)
     )
 
+    profile: Mapped["Profile"] = relationship(back_populates="user")
+
 
 class UserProfile(Base):
     __tablename__ = "user_profiles"
@@ -24,4 +26,4 @@ class UserProfile(Base):
     name: Mapped[str]
 
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id"), unique=True)
-    # user: Mapped[User] = relationship(back_populates="profile")
+    user: Mapped[User] = relationship(back_populates="profile")
