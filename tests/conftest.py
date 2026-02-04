@@ -53,7 +53,8 @@ async def db_session():
             session = AsyncSessionTest(bind=conn)
             yield session
             # откат всей транзакции после теста
-            await conn.rollback()
+            # rollback произойдёт автоматически
+            # await conn.rollback()
 
 
 @pytest.fixture(scope="function", autouse=True)

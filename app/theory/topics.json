@@ -28,8 +28,11 @@
   "slug": "fastapi-lifespan",
   "title": "FastAPI: Lifespan и @asynccontextmanager",
   "description": "Асинхронный жизненный цикл приложения FastAPI. Startup/shutdown, обновление базы без Alembic, сиды, ресурсы."
+},
+  {
+  "slug": "pytest-fastapi-sqlalchemy-fixtures",
+  "title": "Pytest для FastAPI + SQLAlchemy 2.0+ (async фикстуры)",
+  "description": "Настройка pytest с async_sessionmaker, чистой базой и асинхронным клиентом для тестирования FastAPI"
 }
-
-
 
 ]

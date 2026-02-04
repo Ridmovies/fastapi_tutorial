@@ -15,6 +15,7 @@ LEGACY MODULE (SQLAlchemy < 2.0)
 
 from datetime import datetime
 
+from fastapi import APIRouter
 from sqlalchemy import (
     Column,
     Integer,
@@ -154,3 +155,5 @@ class WorkoutRepository:
         self.db.commit()
         self.db.refresh(workout)
         return workout
+
+
