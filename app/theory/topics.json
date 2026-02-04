@@ -33,6 +33,12 @@
   "slug": "pytest-fastapi-sqlalchemy-fixtures",
   "title": "Pytest для FastAPI + SQLAlchemy 2.0+ (async фикстуры)",
   "description": "Настройка pytest с async_sessionmaker, чистой базой и асинхронным клиентом для тестирования FastAPI"
+},
+  {
+  "slug": "sqlalchemy-created-at-aware",
+  "title": "SQLAlchemy: created_at и aware datetime",
+  "description": "Объяснение разницы default=lambda, server_default и почему важно использовать aware datetime в SQLAlchemy 2.0+"
 }
+
 
 ]
